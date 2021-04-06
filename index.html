@@ -52,7 +52,9 @@
 		<!-- 1. 지도 노드 -->
 		<div align="center" max-width="600px">
 			<!-- * 카카오맵 - 지도퍼가기 -->
-		<div id="daumRoughmapContainer1597653753785" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+		<div class="root_daum_roughmap root_daum_roughmap_landing">
+			<a href="https://map.kakao.com/?urlX=485890&urlY=1085737&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false" target="_blank"><img width="504" height="310" src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=2.5&MX=485890&MY=1085737&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" style="border:1px solid #ccc"></a><div class="hide" style="overflow:hidden;padding:7px 11px;border:1px solid #dfdfdf;border-color:rgba(0,0,0,.1);border-radius:0 0 2px 2px;background-color:#f9f9f9;width:482px;"><strong style="float: left;"><img src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵"></strong><div style="float: right;position:relative"><a style="font-size:12px;text-decoration:none;float:left;height:15px;padding-top:1px;line-height:15px;color:#000" target="_blank" href="https://map.kakao.com/?urlX=485890&urlY=1085737&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false">지도 크게 보기</a></div></div>
+		</div>
 		</div>
 		<br>
 		<br>
@@ -63,15 +65,15 @@
 		</p>
 		<br>
 		<br>
-		<a href="https://www.icloud.com/sharedalbum/ko-kr/#B0AGWZuqD77Kcg" target="_blank">
+		{% comment %} <a href="https://www.icloud.com/sharedalbum/ko-kr/#B0AGWZuqD77Kcg" target="_blank">
 			<div class="grid-container">
 				{% comment %} <img class="grid-item" src="img/im7.jpg">
 				<img class="grid-item" src="img/im3.jpg">
 				<img class="grid-item" src="img/im4.jpg">
 				<img class="grid-item" src="img/im5.jpg">
-				<img class="grid-item" src="img/im6.jpg"> {% endcomment %}
+				<img class="grid-item" src="img/im6.jpg"> 
 		  </div>
-		</a>
+		</a> {% endcomment %}
 		<footer>
 			코로나의 어려움 속에서도 귀하신 걸음을 하여 주셔서 너무 감사 드립니다.  <br>
 			코로나로 인하여 음식대접을 못해 드리게 되어 너무 죄송합니다. <br>
@@ -80,7 +82,7 @@
 		</footer>
 		<br>
 
-<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+{% comment %} <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
 <script charset="UTF-8">
 	new daum.roughmap.Lander({
@@ -89,6 +91,6 @@
 		"mapWidth" : "375",
 		"mapHeight" : "400"
 	}).render();
-</script>
+</script> {% endcomment %}
 	</body>
 </html>
